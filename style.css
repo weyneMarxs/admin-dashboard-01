@@ -332,3 +332,60 @@ main .recent-orders a {
   margin: 1rem auto;
   color: var(--color-primary);
 }
+/* right-section */
+.right-section {
+  margin-top: 1.4rem;
+}
+.right-section .nav {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}
+.right-section .nav button {
+  display: none;
+}
+.right-section .dark-mode {
+  background: var(--color-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.4rem;
+  width: 4.2rem;
+  cursor: pointer;
+  border-radius: var(--border-radius-1);
+}
+.right-section .dark-mode span {
+  font-size: 1.2rem;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-section .dark-mode span.active {
+  background: var(--color-primary);
+  color: white;
+}
+.right-section .nav .profile {
+  display: flex;
+  gap: 2rem;
+  text-align: right;
+}
+.right-section .nav .profile .profile-photo {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.right-section .user-profile {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+  background: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--box-shadow);
+}
